@@ -1,0 +1,23 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.table__header {
+    background-color: #ccc;
+    font-weight: normal;
+}
+
+.table__row:nth-child(odd) {
+    background: #919090e5;
+}
+
+.table__row:hover {
+    background: #b1b0b0;
+}
