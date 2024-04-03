@@ -2,6 +2,6 @@
 ## Demo 
 https://leszekm12.github.io/homepage/
 
-**Opis:** 
+**Description:** 
 
-Pierwszy projekt strony internetowej.
+First website design based on the [YouCode](https://youcode.pl/frontend-developer/).
