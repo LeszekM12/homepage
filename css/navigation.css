@@ -4,6 +4,7 @@
 }
 
 .navigation__listItem {
+    display: inline-block;
     margin: 5px;
 }
 
