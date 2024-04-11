@@ -13,4 +13,4 @@ First website design based on the [YouCode](https://youcode.pl/frontend-develope
   + *Media Queries Level 4*
 + Java Script
 
-## **Try [demo of currency-converter](https://leszekm12.github.io/Currency-converter/converter.html)**
+## **Try [demo of my website](https://leszekm12.github.io/homepage/)**
