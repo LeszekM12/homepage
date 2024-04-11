@@ -1,14 +1,18 @@
 {
   const onChangeBackgroundClick = () => {
+    const background = document.querySelector(".backgr");
+    const themeName = document.querySelector(".themeName");
     background.classList.toggle("dark");
     themeName.innerText = background.classList.contains("dark")
       ? "jasny"
       : "ciemny";
   };
+  const init = () => {
+    let changeBackgroundButton = document.querySelector(".button");
 
-  let background = document.querySelector(".backgr");
-  let changeBackgroundButton = document.querySelector(".button");
-  let themeName = document.querySelector(".themeName");
+    changeBackgroundButton.addEventListener("click", onChangeBackgroundClick);
+  };
 
-  changeBackgroundButton.addEventListener("click", onChangeBackgroundClick);
+  init();
+
 }
