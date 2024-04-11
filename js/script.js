@@ -8,8 +8,7 @@
       : "ciemny";
   };
   const init = () => {
-    let changeBackgroundButton = document.querySelector(".button");
-
+    const changeBackgroundButton = document.querySelector(".button");
     changeBackgroundButton.addEventListener("click", toggleBackground);
   };
 
