@@ -1,5 +1,5 @@
 {
-  const onChangeBackgroundClick = () => {
+  const toggleBackground = () => {
     const background = document.querySelector(".backgr");
     const themeName = document.querySelector(".themeName");
     background.classList.toggle("dark");
@@ -10,7 +10,7 @@
   const init = () => {
     let changeBackgroundButton = document.querySelector(".button");
 
-    changeBackgroundButton.addEventListener("click", onChangeBackgroundClick);
+    changeBackgroundButton.addEventListener("click", toggleBackground);
   };
 
   init();
