@@ -14,4 +14,6 @@
 
   init();
 
+  console.log("Witaj!");
+
 }
